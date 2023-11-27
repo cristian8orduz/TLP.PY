@@ -2,6 +2,8 @@ import pandas as pd
 
 # Ruta al archivo CSV
 properties_data = pd.read_csv('C:/Users/Usuario/Documents/Codes/python/csvs/properties.csv')
+#no guarde el archivo csv en una carpeta contenida en este repositorio, puede encontrarlo en 
+#puede encontrarlo en los assets de mi repositorio dataScience
 
 # 1. Conversión de precios a dólares (1 dólar = 83 rupias)
 exchange_rate = 83
